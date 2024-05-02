@@ -3,7 +3,6 @@ description: 'A recipe that contains modules and configuration for Sous media.'
 type: 'Site'
 install:
   # Core modules
-  - field_group
   - file
   - image
   - link
@@ -13,6 +12,7 @@ install:
   - views
   # Contrib modules
   - dropzonejs
+  - field_group
   - focal_point
   - media_library_edit
 config:
